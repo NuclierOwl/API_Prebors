@@ -17,4 +17,4 @@ app.include_router(meteostation_sensors_routers.router, prefix="/meteostation_se
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="193.176.78.35", port=5433)

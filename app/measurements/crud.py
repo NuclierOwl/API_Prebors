@@ -1,5 +1,5 @@
 import psycopg2
-from app.measurementsmain import connect_to_db
+from app.measurementsmain.connect import connect_to_db
 
 def execute_query(query, params=None, fetchone=False):
     conn = connect_to_db()
